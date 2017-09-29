@@ -129,7 +129,6 @@ class Admin
     public static function getSqlPage($where)
     {
         $sql = 'SELECT COUNT(*) as `count` FROM `application`'.$where;
-
         return $sql;
     }
 
